@@ -222,7 +222,7 @@ ul,li{
 
 .btn-style-two:hover{
 	color: #FAF2EF;
-	background: #101010;
+	background: #6D5B57;
 }
 
 .theme_color{
@@ -354,7 +354,7 @@ form select{
 	position:relative;
 	display:block;
 	width:100%;
-	color:#101010;
+	color:#6D5B57;
 	line-height:30px;
 	padding:13px 24px;
 	height:58px;
@@ -574,7 +574,7 @@ form .check-block label{
 }
 
 .weekend-mode .mode-switch .switcher .left-text{
-	color: #FAF2EF;
+	color: #B08980;
 }
 
 .mode-switch .switcher .switch-btn{
@@ -605,7 +605,7 @@ form .check-block label{
 }
 
 .weekend-mode .mode-switch .switcher .switch-btn .btn-inner{
-	border: 5px solid #adacab;
+	border: 5px solid #FAF2EF;
 	padding-left: 5px;
 	padding-right: 40px;
 	background: #BF8484;
@@ -636,11 +636,10 @@ form .check-block label{
 	text-align: center;
 	right: 0;
 	top: 0;
-	color: #d4d4d4;
+	color: #F2E1D8;
 	font-weight: 600;
 	font-size: 22px;
 	text-transform: uppercase;
-	color: #d4d4d4;
 }
 
 .weekend-mode .mode-switch .switcher .switch-btn .txt{
@@ -672,7 +671,7 @@ form .check-block label{
 }
 
 .grey-left-bar .mobile-header .inner{
-	background: #757575;
+	background: #6D5B57;
 }
 
 .mobile-header .inner .image-box{
@@ -709,7 +708,7 @@ form .check-block label{
 }
 
 .grey-left-bar .mobile-header .inner .info .name{
-	color: rgba(255,255,255,1);
+	color: #FAF2EF;
 }
 
 .mobile-header .inner .info .designation{
@@ -722,7 +721,7 @@ form .check-block label{
 }
 
 .grey-left-bar .mobile-header .inner .info .designation{
-	color: rgba(255,255,255,0.60);
+	color: #FAF2EF;
 }
 
 .left-bar .mobile-header .inner .info .designation .dot{
@@ -1012,7 +1011,7 @@ form .check-block label{
 }
 
 .grey-left-bar .left-bar .left-upper .info .designation{
-	color: rgba(255,255,255,0.60);
+	color: #FAF2EF;
 }
 
 .left-bar .left-upper .info .designation .dot{
@@ -1038,11 +1037,11 @@ form .check-block label{
 
 .main-nav .navigation{
 	position: relative;
-	border-top: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid #6D5B57;
 }
 
 .grey-left-bar .main-nav .navigation{
-	border-top-color: rgba(255,255,255,0.07);
+	border-top-color: #6D5B57;
 }
 
 .main-nav .navigation li{
@@ -1051,7 +1050,7 @@ form .check-block label{
 }
 
 .grey-left-bar .main-nav .navigation li{
-	border-bottom-color: rgba(255,255,255,0.07);
+	border-bottom-color: #6D5B57;
 }
 
 .main-nav .navigation li a{
@@ -1170,7 +1169,7 @@ form .check-block label{
 
 .grey-left-bar .main-nav .navigation li a:after{
 	color: rgba(255,255,255,0.15);
-	border-left-color: rgba(255,255,255,0.07);
+	border-left-color: #6D5B57;
 }
 
 .main-nav .navigation li.home a:after{
