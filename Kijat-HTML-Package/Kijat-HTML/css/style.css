@@ -1,4 +1,4 @@
-/* 
+/* #B08980
 color scheme:
 https://coolors.co/ffffff-faf2ef-f2e1d8-b08980-6d5b57-ba7c85-bf8484-dfb0af-efd5cd
 #FFFFFF - white
@@ -14,6 +14,18 @@ https://coolors.co/ffffff-faf2ef-f2e1d8-b08980-6d5b57-ba7c85-bf8484-dfb0af-efd5c
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root{
+	--white: #FFFFFF; 
+	--seashell: #FAF2EF; 
+	--champagne-pink: #F2E1D8; 
+	--rosy-brown: #B08980; 
+	--wenge: #6D5B57; 
+	--old-rose-1: #BA7C85; 
+	--old-rose-2: #BF8484; 
+	--tea-rose: #DFB0AF; 
+	--pale-dogwood: #EFD5CD; 
+
+}
 /*
 	font-family: 'Barlow', sans-serif;
 */
@@ -52,10 +64,10 @@ https://coolors.co/ffffff-faf2ef-f2e1d8-b08980-6d5b57-ba7c85-bf8484-dfb0af-efd5c
 body {
 	font-family: 'Barlow', sans-serif;
 	font-size:16px;
-	color:#B08980;
+	color: var(--rosy-brown);
 	line-height:1.50em;
 	font-weight:400;
-	background:#FAF2EF;
+	background: var(--seashell);
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 }
@@ -170,7 +182,7 @@ ul,li{
 	display:inline-block;
 	vertical-align: top;
 	margin: 0;
-	color: #FAF2EF;
+	color: var(--seashell);
 	font-weight: 500;
 	font-size: 16px;
 	padding: 13px 25px;
@@ -189,8 +201,8 @@ ul,li{
 }
 
 .btn-style-one:hover{
-	color: #FAF2EF;
-	background: #B08980;
+	color: var(--seashell);
+	background: var(--rosy-brown);
 }
 
 .btn-style-two{
@@ -205,7 +217,7 @@ ul,li{
 	font-size: 18px;
 	text-align: center;
 	text-transform: capitalize;
-	background: #FAF2EF;
+	background: var(--seashell);
 	border-radius: 5px;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -221,7 +233,7 @@ ul,li{
 }
 
 .btn-style-two:hover{
-	color: #FAF2EF;
+	color: var(--seashell);
 	background: #6D5B57;
 }
 
@@ -268,7 +280,7 @@ ul,li{
 	width:100%; 
 	height:100%; 
 	z-index:999999; 
-	background-color:#FAF2EF; 
+	background-color:var(--seashell); 
 	background-position:center center; 
 	background-repeat:no-repeat; 
 	background-image:url(../images/icons/preloader.svg);
@@ -294,7 +306,7 @@ img{
 	right:20px;
 	width:44px;
 	height:52px;
-	color:#FAF2EF;
+	color:var(--seashell);
 	font-size:15px;
 	text-transform:uppercase;
 	line-height:52px;
@@ -312,8 +324,8 @@ img{
 }
 
 .scroll-to-top:hover{
-	background: #B08980;
-	color:#FAF2EF;
+	background: var(--rosy-brown);
+	color:var(--seashell);
 }
 
 /*** 
@@ -360,7 +372,7 @@ form select{
 	height:58px;
 	font-size:16px;
 	font-weight: 400;
-	background:#FAF2EF;
+	background:var(--seashell);
 	margin:0px;
 	border-radius: 7px;
 	border:1px solid #DFB0AF;
@@ -382,7 +394,7 @@ form select{
 	-moz-appearance:none;
 	appearance:none;
 	cursor: pointer;
-	background: #FAF2EF url(../images/icons/icon-select.png) right center no-repeat;
+	background: var(--seashell) url(../images/icons/icon-select.png) right center no-repeat;
 }
 
 form select option{
@@ -537,7 +549,7 @@ form .check-block label{
 }
 
 .weekend-mode .mode-switch .switcher:before{
-	border-top-color: rgba(255,255,255,0.20);
+	border-top-color: var(--rosy-brown);
 }
 
 .mode-switch .switcher:after{
@@ -550,7 +562,7 @@ form .check-block label{
 }
 
 .weekend-mode .mode-switch .switcher:after{
-	border-top-color: rgba(255,255,255,0.20);
+	border-top-color: var(--rosy-brown);
 }
 
 .mode-switch .switcher{
@@ -564,7 +576,7 @@ form .check-block label{
 	position: relative;
 	float: left;
 	width: 175px;
-	color: #B08980;
+	color: var(--rosy-brown);
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 30px;
@@ -574,7 +586,7 @@ form .check-block label{
 }
 
 .weekend-mode .mode-switch .switcher .left-text{
-	color: #B08980;
+	color: var(--rosy-brown);
 }
 
 .mode-switch .switcher .switch-btn{
@@ -597,15 +609,15 @@ form .check-block label{
 	display: block;
 	line-height: 30px;
 	padding: 5px 0px;
-	border: 5px solid #FAF2EF;
+	border: 5px solid var(--seashell);
 	border-radius: 25px;
 	padding-left: 40px;
-	background: #FAF2EF;
+	background: var(--seashell);
 	box-shadow: 0 0 7px 0px rgba(0,0,0,0.15) inset;
 }
 
 .weekend-mode .mode-switch .switcher .switch-btn .btn-inner{
-	border: 5px solid #FAF2EF;
+	border: 5px solid var(--seashell);
 	padding-left: 5px;
 	padding-right: 40px;
 	background: #BF8484;
@@ -618,8 +630,8 @@ form .check-block label{
 	top: 2px;
 	width: 36px;
 	height: 36px;
-	background: #d9d9d9;
-	border: 6px solid #FAF2EF;
+	background: var(--tea-rose);
+	border: 6px solid var(--seashell);
 	border-radius: 20px;
 	box-shadow: 0 0 7px 0px rgba(0,0,0,0.15);
 }
@@ -636,14 +648,14 @@ form .check-block label{
 	text-align: center;
 	right: 0;
 	top: 0;
-	color: #F2E1D8;
+	color: var(--champagne-pink);
 	font-weight: 600;
 	font-size: 22px;
 	text-transform: uppercase;
 }
 
 .weekend-mode .mode-switch .switcher .switch-btn .txt{
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 /*** 
@@ -664,7 +676,7 @@ form .check-block label{
 	display: block;
 	max-width: 992px;
 	margin: 0 auto;
-	background: #F2E1D8;
+	background: var(--champagne-pink);
 	padding: 50px 30px 30px;
     border-radius: 20px 20px 0 0;
 	text-align: center;
@@ -700,7 +712,7 @@ form .check-block label{
 
 .mobile-header .inner .info .name{
 	position: relative;
-	color: #B08980;
+	color: var(--rosy-brown);
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: capitalize;
@@ -708,12 +720,12 @@ form .check-block label{
 }
 
 .grey-left-bar .mobile-header .inner .info .name{
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 .mobile-header .inner .info .designation{
 	position: relative;
-	color: #B08980;
+	color: var(--rosy-brown);
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -721,7 +733,7 @@ form .check-block label{
 }
 
 .grey-left-bar .mobile-header .inner .info .designation{
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 .left-bar .mobile-header .inner .info .designation .dot{
@@ -758,7 +770,7 @@ form .check-block label{
 	display: block;
 	top: -2px;
 	font-size: 30px;
-	color: #FAF2EF;
+	color: var(--seashell);
 	font-style: normal;
 }
 
@@ -769,7 +781,7 @@ form .check-block label{
 	height: auto;
 	border: 3px solid #BF8484;
 	border-top: 0;
-	background: #FAF2EF;
+	background: var(--seashell);
 	border-radius: 0 0 5px 5px;
 	opacity: 0;
 	visibility: hidden;
@@ -851,12 +863,12 @@ form .check-block label{
 	position: relative;
 	display: block;
 	min-height: 300px;
-	background: #F2E1D8;
+	background: var(--champagne-pink);
 	border-radius: 40px 0 0 40px;
 }
 
 .grey-left-bar .left-bar .left-inner{
-	background: #757575;
+	background: var(--wenge);
 }
 
 .left-bar .left-inner .nav-toggler{
@@ -926,7 +938,7 @@ form .check-block label{
 	display: block;
 	top: -2px;
 	font-size: 30px;
-	color: #FAF2EF;
+	color: var(--seashell);
 	font-style: normal;
 }
 
@@ -938,7 +950,7 @@ form .check-block label{
 	height: 40px;
 	border: 3px solid #BF8484;
 	border-left: 0;
-	background: #FAF2EF;
+	background: var(--seashell);
 	border-radius: 0 5px 0 0;
 	opacity: 0;
 	visibility: hidden;
@@ -990,7 +1002,7 @@ form .check-block label{
 
 .left-bar .left-upper .info .name{
 	position: relative;
-	color: #B08980;
+	color: var(--rosy-brown);
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: capitalize;
@@ -998,12 +1010,12 @@ form .check-block label{
 }
 
 .grey-left-bar .left-bar .left-upper .info .name{
-	color: rgba(255,255,255,1);
+	color: var(--seashell);
 }
 
 .left-bar .left-upper .info .designation{
 	position: relative;
-	color: #B08980;
+	color: var(--rosy-brown);
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -1011,7 +1023,7 @@ form .check-block label{
 }
 
 .grey-left-bar .left-bar .left-upper .info .designation{
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 .left-bar .left-upper .info .designation .dot{
@@ -1037,11 +1049,11 @@ form .check-block label{
 
 .main-nav .navigation{
 	position: relative;
-	border-top: 1px solid #6D5B57;
+	border-top: 1px solid var(--old-rose-2);
 }
 
 .grey-left-bar .main-nav .navigation{
-	border-top-color: #6D5B57;
+	border-top-color: var(--old-rose-2);
 }
 
 .main-nav .navigation li{
@@ -1050,14 +1062,14 @@ form .check-block label{
 }
 
 .grey-left-bar .main-nav .navigation li{
-	border-bottom-color: #6D5B57;
+	border-bottom-color: var(--old-rose-2);
 }
 
 .main-nav .navigation li a{
 	position: relative;
 	display: block;
 	line-height: 30px;
-	color: #828385;
+	color: var(--pale-dogwood);
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 0.03em;
@@ -1168,8 +1180,8 @@ form .check-block label{
 }
 
 .grey-left-bar .main-nav .navigation li a:after{
-	color: rgba(255,255,255,0.15);
-	border-left-color: #6D5B57;
+	color: var(--old-rose-1);
+	border-left-color: var(--old-rose-2);
 }
 
 .main-nav .navigation li.home a:after{
@@ -1194,8 +1206,8 @@ form .check-block label{
 	bottom: 10px;
 	padding: 10px 10px;
 	border-left-color: rgba(0,0,0,0.0);
-	color: #FAF2EF;
-	background: #BF8484;
+	color: var(--seashell);
+	background: var(--old-rose-2);
 	border-radius: 10px 0 0 10px;
 }
 
@@ -1215,7 +1227,7 @@ form .check-block label{
 	width: 100%;
 	padding: 0 0 80px;
 	min-height: 790px;
-	background: #FAF2EF;
+	background: var(--seashell);
 	-ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
@@ -1235,7 +1247,7 @@ form .check-block label{
 .site-container .page-title{
 	position: relative;
 	padding: 50px 50px 0;
-	background: #F2E1D8;
+	background: var(--champagne-pink);
 }
 
 .site-container .page-title.sec-title{
@@ -1257,7 +1269,7 @@ form .check-block label{
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	background: #FAF2EF;
+	background: var(--seashell);
 	padding: 4px 18px;
 	line-height: 42px;
 	color: #6D5B57;
@@ -1281,8 +1293,8 @@ form .check-block label{
 	padding: 10px 10px 10px 60px;
 	line-height: 30px;
 	text-align: center;
-	background: #F2E1D8;
-	color: #B08980;
+	background: var(--champagne-pink);
+	color: var(--rosy-brown);
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 13px;
@@ -1291,7 +1303,7 @@ form .check-block label{
 
 .right-content .download-cv .theme-btn:hover{
 	background: #BF8484;
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 .right-content .download-cv .theme-btn .icon{
@@ -1305,7 +1317,7 @@ form .check-block label{
 	text-align: center;
 	background: #BF8484;
 	border-right: 1px solid rgba(255,255,255,0.50);
-	color: #FAF2EF;
+	color: var(--seashell);
 	border-radius: 7px 0 0 7px;
 }
 
@@ -1353,14 +1365,14 @@ form .check-block label{
 	position:relative;
 	display:block;
 	padding: 10px 10px;
-	background: #F2E1D8;
+	background: var(--champagne-pink);
 	margin-bottom: 18px;
 	border-radius: 10px;
 }
 
 .skill-block .skill-block-inner{
 	position: relative;
-	background: #F2E1D8;
+	background: var(--champagne-pink);
 	border-radius: 7px;
 	padding: 15px 20px 20px;
 }
@@ -1379,7 +1391,7 @@ form .check-block label{
 	position:relative;
 	width:100%;
 	height:8px;
-	background:#F2E1D8;
+	background:var(--champagne-pink);
 }
 
 .skills .skill-block .bar-inner{
@@ -1402,7 +1414,7 @@ form .check-block label{
 	top:-12px;
 	width:50px;
 	height:30px;
-	background:#FAF2EF;
+	background:var(--seashell);
 	color:#BF8484;
 	line-height:30px;
 	font-size:14px;
@@ -1565,7 +1577,7 @@ form .check-block label{
 	height: 200px;
 	display: inline-block;
 	text-align: center;
-	background: #F2E1D8;
+	background: var(--champagne-pink);
 	border-radius: 50%;
 }
 
@@ -1579,10 +1591,10 @@ form .check-block label{
     height: 80px;
     padding: 20px 10px;
     font-size: 20px;
-    color: #B08980;
+    color: var(--rosy-brown);
     font-weight: 500;
     line-height: 40px;
-    background: #FAF2EF;
+    background: var(--seashell);
     border-radius: 50%;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.10);
 }
@@ -1607,7 +1619,7 @@ form .check-block label{
   position: relative;
   padding: 50px 20px;
   margin-bottom: 10px;
-  background: #F2E1D8;
+  background: var(--champagne-pink);
 }
 
 .testimonials .carousel-box{
@@ -1632,7 +1644,7 @@ form .check-block label{
 .testimonials .image-box .image{
 	position: relative;
 	display: block;
-	border: 5px solid #FAF2EF;
+	border: 5px solid var(--seashell);
 	border-radius: 50%;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.15);
 }
@@ -1674,7 +1686,7 @@ form .check-block label{
 .testimonials .content-box .info{
   position: relative;
   display: block;
-  color: #B08980;
+  color: var(--rosy-brown);
   text-transform: uppercase;
   line-height: 24px;
   font-weight: 500;
@@ -1815,7 +1827,7 @@ form .check-block label{
 .contact-content .info-block a{
 	display: inline-block;
 	vertical-align: middle;
-	color: #B08980;
+	color:  var(--rosy-brown);
 }
 
 .contact-content .info-block a:hover{
@@ -1882,8 +1894,8 @@ form .check-block label{
 .weekend-mode .weekend-content{
 	position: relative;
 	margin: 0 0;
-	border: 10px solid #FAF2EF;
-	background: #FAF2EF;
+	border: 10px solid var(--seashell);
+	background: var(--seashell);
 	border-radius: 40px 0 0 50px;
 }
 
@@ -1927,7 +1939,7 @@ form .check-block label{
 .weekend-mode .weekend-content .text-column{
 	position: relative;
 	padding: 0 0;
-	background: #FAF2EF;
+	background: var(--seashell);
 	order: 12;
 }
 
@@ -1980,7 +1992,7 @@ form .check-block label{
 	padding:3px 20px;
 	border: 1px solid #DFB0AF;
 	cursor:pointer;
-	color:#B08980;
+	color: var(--rosy-brown);
 	font-weight:500;
 	margin: 0 18px 20px 0;
 	text-transform: uppercase;
@@ -1996,7 +2008,7 @@ form .check-block label{
 
 .mixitup-gallery .filters .filter.active,
 .mixitup-gallery .filters .filter:hover{
-	color: #FAF2EF;
+	color: var(--seashell);
 	border-color: #BF8484;
 	background-color: #BF8484;
 }
@@ -2087,7 +2099,7 @@ form .check-block label{
 	margin-left: 7px;
 	width: 32px;
 	height: 32px;
-	color: #FAF2EF;
+	color: var(--seashell);
 	line-height: 30px;
 	font-size: 14px;
 	text-align: center;
@@ -2098,7 +2110,7 @@ form .check-block label{
 
 .portfolio-section .portfolio-block .hvr-upper .theme-btn:hover{
 	color: #BF8484;
-	background: #FAF2EF;
+	background: var(--seashell);
 }
 
 .portfolio-section .portfolio-block .hvr-lower{
@@ -2120,7 +2132,7 @@ form .check-block label{
 
 .portfolio-section .portfolio-block .title a{
 	position: relative;
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 .portfolio-section .portfolio-block .title a:hover{
@@ -2140,7 +2152,7 @@ form .check-block label{
 	font-size: 12px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	background: #FAF2EF;
+	background: var(--seashell);
 	color: #BF8484;
 	border-radius: 3px;
 }
@@ -2315,7 +2327,7 @@ form .check-block label{
 	padding-left: 70px;
 	height: 40px;
 	line-height: 40px;
-	background: #FAF2EF;
+	background: var(--seashell);
 }
 
 .resume-content .awards .main-title .icon{
@@ -2389,8 +2401,8 @@ form .check-block label{
 	width: 66px;
 	height: 24px;
 	line-height: 24px;
-	background: #F2E1D8;
-	color: #B08980;
+	background: var(--champagne-pink);
+	color:  var(--rosy-brown);
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -2405,7 +2417,7 @@ form .check-block label{
 
 .resume-content .award-block:hover .date span{
 	background: #BF8484;
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 .resume-content .award-block h5{
@@ -2430,7 +2442,7 @@ form .check-block label{
 	padding-left: 70px;
 	height: 40px;
 	line-height: 40px;
-	background: #FAF2EF;
+	background: var(--seashell);
 }
 
 .resume-content .expertise:hover .main-title .icon{
@@ -2531,7 +2543,7 @@ form .check-block label{
 	padding-left: 70px;
 	height: 40px;
 	line-height: 40px;
-	background: #FAF2EF;
+	background: var(--seashell);
 }
 
 .resume-content .education:hover .main-title .icon{
@@ -2595,8 +2607,8 @@ form .check-block label{
 	position: relative;
 	display: inline-block;
 	line-height: 24px;
-	background: #F2E1D8;
-	color: #B08980;
+	background: var(--champagne-pink);
+	color:  var(--rosy-brown);
 	font-size: 14px;
 	padding: 0 10px;
 	text-transform: uppercase;
@@ -2611,7 +2623,7 @@ form .check-block label{
 
 .resume-content .edu-block:hover .date span{
 	background: #BF8484;
-	color: #FAF2EF;
+	color: var(--seashell);
 }
 
 .resume-content .edu-block h5{
@@ -2636,7 +2648,7 @@ form .check-block label{
 	padding-left: 70px;
 	height: 40px;
 	line-height: 40px;
-	background: #FAF2EF;
+	background: var(--seashell);
 }
 
 .resume-content .interests .main-title .icon{
@@ -2745,7 +2757,7 @@ form .check-block label{
 .resume-content .interest-block h5{
 	position: relative;
 	font-weight: 500;
-	color: #B08980;
+	color:  var(--rosy-brown);
 	margin-bottom: 0;
 }
 
