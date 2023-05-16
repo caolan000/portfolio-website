@@ -23,7 +23,7 @@ https://coolors.co/ffffff-faf2ef-f2e1d8-b08980-6d5b57-ba7c85-bf8484-dfb0af-efd5c
 	--old-rose-1: #BA7C85; 
 	--old-rose-2: #BF8484; 
 	--tea-rose: #DFB0AF; 
-	--pale-dogwood: #EFD5CD; 
+	--pale-dogwood: #efd5cddc; 
 
 }
 /*
@@ -494,19 +494,6 @@ form .check-block label{
 
 ***/
 
-.body-bg{
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-	background-color: var(--seashell);
-	background-position: center 100px;
-	background-size: cover;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-}
 
 .weekend-mode .body-bg{
 	background-position: center bottom;
@@ -516,6 +503,8 @@ form .check-block label{
 	position: relative;
 	display: block;
 	margin: 200px 0;
+	background-color: var(--champagne-pink);
+	background-image: url(../images/background/net.svg);
 }
 
 .site-content-container{
@@ -683,7 +672,7 @@ form .check-block label{
 }
 
 .grey-left-bar .mobile-header .inner{
-	background: var(--wenge);
+	background: var(--pale-dogwood);
 }
 
 .mobile-header .inner .image-box{
@@ -873,7 +862,7 @@ form .check-block label{
 }
 
 .grey-left-bar .left-bar .left-inner{
-	background: var(--wenge);
+	background: var(--pale-dogwood);
 }
 
 .left-bar .left-inner .nav-toggler{
@@ -1026,7 +1015,7 @@ form .check-block label{
 }
 
 .grey-left-bar .left-bar .left-upper .info .name{
-	color: var(--seashell);
+	color: var(--old-rose-2);
 }
 
 .left-bar .left-upper .info .designation{
@@ -1039,7 +1028,7 @@ form .check-block label{
 }
 
 .grey-left-bar .left-bar .left-upper .info .designation{
-	color: var(--seashell);
+	color: var(--old-rose-2);
 }
 
 .left-bar .left-upper .info .designation .dot{
@@ -1093,7 +1082,7 @@ form .check-block label{
 }
 
 .grey-left-bar .main-nav .navigation li a{
-	color: var(--seashell);
+	color: var(--old-rose-2);
 }
 
 .main-nav .navigation li a:before{
@@ -1243,7 +1232,7 @@ form .check-block label{
 	width: 100%;
 	padding: 0 0 80px;
 	min-height: 790px;
-	background: var(--seashell);
+	background: #faf2efd0;
 	-ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;

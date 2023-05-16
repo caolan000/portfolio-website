@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#323232;}
+	.st0{fill:#FAF2EF;}
 	.st1{opacity:9.804000e-02;fill:none;stroke:#BA7C85;stroke-width:0.25;stroke-miterlimit:10;}
 </style>
 <rect class="st0" width="600" height="600"/>
@@ -14446,4 +14446,6 @@
 <polygon class="st1" points="361.6,218 369.8,202.2 344.7,223.9 "/>
 <polygon class="st1" points="361.6,218 389.4,195.8 344.7,223.9 "/>
 <polygon class="st1" points="369.8,202.2 389.4,195.8 344.7,223.9 "/>
+<g id="Layer_2">
+</g>
 </svg>
