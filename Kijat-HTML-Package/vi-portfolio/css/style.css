@@ -70,6 +70,8 @@ body {
 	background: var(--seashell);
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
+	background-color: var(--champagne-pink);
+	background-image: url(../images/background/net.svg);
 }
 
 h4{
@@ -503,8 +505,6 @@ form .check-block label{
 	position: relative;
 	display: block;
 	margin: 200px 0;
-	background-color: var(--champagne-pink);
-	background-image: url(../images/background/net.svg);
 }
 
 .site-content-container{

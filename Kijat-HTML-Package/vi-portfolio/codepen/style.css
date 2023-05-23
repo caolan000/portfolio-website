@@ -1,0 +1,155 @@
+/* font-family: 'Jost', sans-serif;
+font-family: 'Nunito', sans-serif; */
+
+nav {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    background-color: #000;
+}
+
+nav .mobile-menu {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav li:last-child {
+    margin-left: auto;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #7c82a3;
+}
+
+.logo {
+    width: 100%;
+}
+
+body {
+    background-color: #30323E;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+    font-family: 'Jost', sans-serif;
+}
+
+.codepenfor {
+    background-color: #191A1D;
+    font-size: 2rem;
+}
+
+.codepenfor li a:hover {
+    background-color: #393D45;
+}
+
+.codepenfor li a {
+    border-radius: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 1000px;
+    width: 700px;
+    color: #fff;
+    text-align: center;
+}
+
+main h1, h2 {
+    margin-left: 2%;
+}
+
+/* buttons for signing up and learning more */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.green-button,
+.black-button {
+    display: inline-block;
+    padding: 32px 64px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.green-button {
+    background-color: #4BCE79;
+    color: #000000;
+}
+
+.black-button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Search bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+
+  span {
+    font-family: 'Nunito', sans-serif;
+  }
+  
