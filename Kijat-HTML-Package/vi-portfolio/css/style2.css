@@ -9,12 +9,13 @@ https://coolors.co/6d6a75-011627-f3e7d3-a3c3d9-576294-313272-0a014f
 	--white: #FFFFFF; 
 	--seashell: #313272; 
 	--champagne-pink: #576294; 
-	--rosy-brown: #313272; 
-	--wenge: #0A014F; 
+	--rosy-brown: #CBD5D6; 
+	--wenge: #FFFFFF; 
 	--old-rose-1: #A3C3D9; 
-	--old-rose-2: #CBD5D6; 
+	--old-rose-2: #313272; 
 	--tea-rose: #011627; 
 	--pale-dogwood: #0a014fc0; 
+	#0A014F
 
 }
 /*
@@ -62,7 +63,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	background-color: var(--champagne-pink);
-	background-image: url(../images/background/net.svg);
+	background-image: url(../images/background/blue.svg);
 }
 
 h4{
@@ -841,7 +842,7 @@ form .check-block label{
 	-ms-flex: 0 0 300px;
 	flex: 0 0 300px;
 	max-width: 300px;
-	border-right: 1px solid #f6f6f6;
+	border-right: 1px solid var(--old-rose-1);
 }
 
 .left-bar .left-inner{
@@ -1223,7 +1224,7 @@ form .check-block label{
 	width: 100%;
 	padding: 0 0 80px;
 	min-height: 790px;
-	background: #faf2efd0;
+	background: var(--pale-dogwood);
 	-ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
